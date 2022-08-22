@@ -1,0 +1,202 @@
+.main{
+    background-image: url(https://wallpaperaccess.com/full/1657789.jpg);
+     width: 100%;
+     background-position: center;
+     background-size: cover;
+     height: 800px;
+     
+}
+
+body{
+    margin: 0;
+    background: #222;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+.container{
+    width: 80;
+margin: 0 auto;
+}
+header{
+    background: #AC9C81 ;
+
+}
+header::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+.logo {
+    
+    font-size: 22px;
+    float: left;
+    margin-left: 50px ;
+    padding: 12px 4px;
+    color:black;
+    line-height: 22px;
+    
+}
+nav{
+    float: right;
+
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li{
+    display: inline-block;
+    margin: 0px  20px;
+    padding-top: 14px;
+     
+}
+
+nav a{
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 10px 15px;
+    border-radius: 10px;
+
+}
+
+nav a:hover{
+    color: rgb(255, 250, 250);
+}
+
+a:hover{
+    background: #575142;
+    transition: .3s ease-in-out;
+}
+
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: black;
+    position: relative;
+}
+
+.content h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+}
+
+.content .par{
+    padding-bottom: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1.2px;
+    line-height: 25px;
+    font-size: 16px;
+}
+
+.form
+{
+    width: 250px;
+    height: 340px;
+    background: white;
+    opacity: 70%;
+    position: absolute;
+    top: -20px;
+    left: 870px;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.form h2{
+    width: 230px;
+    font-family: sans-serif;
+    text-align: center ;
+    font-size: 25px;
+    background-color: #AC9C81;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+    
+}
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid #AC9C81 ;
+    border-top: none;
+    border-right: none;
+    border-left: none ;
+    color: black;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    
+
+}
+
+.form input:focus{
+    outline: none;
+}
+::placeholder{
+    color: black;
+}
+
+.btn
+{
+    width: 240px;
+    height: 40px;
+    background: #AC9C81;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    transition: 0.3s ease;
+    border-radius: 10px;
+}
+.btn :hover{
+    
+    background: #575142;
+    padding: 5px 7.5px;
+    border-radius: 10px;
+
+
+}
+
+.btn a{
+    text-decoration: none;
+    color: black;
+}
+
+.btn a:hover{
+    color: rgb(255, 250, 250);
+}
+
+.form .link{
+    text-align: center;
+}
+
+.form .link a{
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 10px;
+    color: black;
+}
+
+.form .link a:hover{
+    color: rgb(255, 250, 250);
+}
+
+.footer{
+    position: fixed;
+    left: 0%;
+    bottom: 0%;
+    width: 100%;
+    text-align: center;
+    background-color: #AC9C81;
+    height: 6%;
+    opacity: 50%;
+}
+
+
+
